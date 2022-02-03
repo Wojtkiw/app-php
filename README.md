@@ -1,4 +1,4 @@
-# app-xampp
+# app-php
 
 Projekt web CRUD symulujący listę kontaktów w phpie podłączone do MysQL. Dodatkowo jest możliwość administracji bazą danych przy użyciu phpMyAdmin.
 
