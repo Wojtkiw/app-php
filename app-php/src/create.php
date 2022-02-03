@@ -11,7 +11,9 @@ if (!empty($_POST)) {
         $title = isset($_POST['title']) ? $_POST['title'] : '';
         $created = isset($_POST['created']) ? $_POST['created'] : date('Y-m-d H:i:s');
         $msg = 'Created Successfully!';
-        if (!is_numeric($_POST['phone'])){
+        if (!is_numeric($_POST['id'])){
+            $msg = "ID must be numeric!";
+        } else if (!is_numeric($_POST['phone'])){
             $msg = "Phone number must be numeric!";
         } else {
             $stmt = $pdo->prepare('INSERT INTO contacts VALUES (?, ?, ?, ?, ?, ?)');

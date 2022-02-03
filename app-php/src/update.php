@@ -12,7 +12,9 @@ if (isset($_GET['id'])) {
             $title = isset($_POST['title']) ? $_POST['title'] : '';
             $created = isset($_POST['created']) ? $_POST['created'] : date('Y-m-d H:i:s');
             $msg = 'Updated Successfully!';
-            if (!is_numeric($_POST['phone'])){
+            if (!is_numeric($_POST['id'])){
+                $msg = "ID must be numeric!";
+            } else if (!is_numeric($_POST['phone'])){
                 $msg = "Phone number must be numeric!";
             } else {
                 $stmt = $pdo->prepare('UPDATE contacts SET id = ?, name = ?, email = ?, phone = ?, title = ?, created = ? WHERE id = ?');
