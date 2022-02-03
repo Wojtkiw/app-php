@@ -21,7 +21,9 @@ volumes:
 
 ## Wykorzystanie
 
-Aby połączyć się ze stroną głowną należy wejść na adres [localhost:8000](localhost:8000)
-Aby połączyć się z phpMyAdmin należy wejść na adres [localhost:8080](localhost:8080)
+Aby połączyć się ze stroną głowną należy wejść na adres [localhost:8000](http://localhost:8000/)
+
+Aby połączyć się z phpMyAdmin należy wejść na adres [localhost:8080](http://localhost:8000/)
+
 Po wejściu na stronę główną można przejść do kontaktów gdzie jest możliwość tworzenia, edycji i usuwania kontaktów z bazy danych.
 Jeśli użytkownik chciałby importować jeszcze jakąś bazę danych, lub importować zmienioną werjse bazy danych trzeba wrzucić plik .sql do folderu mysql.
