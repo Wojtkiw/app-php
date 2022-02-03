@@ -31,5 +31,7 @@ Jeśli użytkownik chciałby importować jeszcze jakąś bazę danych, lub impor
 ## Autorzy
 
 Robert Piórkowski
+
 Krzysztof Wojtkiw
+
 Patryk Żuchowski
