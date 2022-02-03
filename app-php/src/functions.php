@@ -1,6 +1,6 @@
 <?php
 function pdo_connect_mysql() {
-    $DATABASE_HOST = 'localhost';
+    $DATABASE_HOST = 'db';
     $DATABASE_USER = 'admin';
     $DATABASE_PASS = 'admin123';
     $DATABASE_NAME = 'phpcrud';
