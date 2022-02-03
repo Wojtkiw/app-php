@@ -1,10 +1,6 @@
 <?php
 include 'functions.php';
 
-// PHP code here.
-
-// Home Page template below.
-
 ?>
 
 <?=template_header('Home')?>
