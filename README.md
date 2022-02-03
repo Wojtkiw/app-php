@@ -27,3 +27,9 @@ Aby połączyć się z phpMyAdmin należy wejść na adres [localhost:8080](http
 
 Po wejściu na stronę główną można przejść do kontaktów gdzie jest możliwość tworzenia, edycji i usuwania kontaktów z bazy danych.
 Jeśli użytkownik chciałby importować jeszcze jakąś bazę danych, lub importować zmienioną werjse bazy danych trzeba wrzucić plik .sql do folderu mysql.
+
+## Autorzy
+
+Robert Piórkowski
+Krzysztof Wojtkiw
+Patryk Żuchowski
