@@ -6,16 +6,18 @@ Projekt web CRUD symulujący listę kontaktów w phpie podłączone do MysQL. Do
 
 Potrzeba instalacja [dockera](https://www.docker.com/products/docker-desktop).
 Aby zainstalować aplikację ściągnąć archiwum z githuba, przejść do folderu i odpalić
-'''bash
+
+```bash
 docker-compose up
-'''
+```
+
 ważne, aby przy instalacji an Windowsie wykorzystać PowerShella, jako że inicjalizacja MySQL odbywa się na wydzielonym folderze lokalnym podczas której zmieniani są właściciele plików. Przy użyciu WSL możliwość zapętlenia się startu wymagająca zatrzymania i usunięcia utworzonego folderu "db".
 Jeśli użytkownik nie chciałby inicjalizować MySQL na swojej maszynie trzeba usunąć linijkę kody z dockercompose.yml:
-'''yml
-volumes:
 
-- ./db:/var/lib/mysql
-  '''
+```yml
+volumes:
+  - ./db:/var/lib/mysql
+```
 
 ## Wykorzystanie
 
